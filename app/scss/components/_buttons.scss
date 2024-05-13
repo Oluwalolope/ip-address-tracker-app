@@ -1,0 +1,33 @@
+input {
+    height: 3rem;
+    border-radius: var(--border-radius);
+    
+    &[type=text] {
+        padding: .5rem;
+        outline: none;
+        border-width: 0;
+        width: 90%;
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+        
+        &:focus {
+            border-width: 0 0 1px 0;
+        }
+    }
+
+    &[type=submit] {
+        padding: .5rem;
+        width: 10%;
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
+        border: none;
+        background-color: #000;
+        background-image: url(../assets/images/icon-arrow.svg);
+        background-repeat: no-repeat;
+        background-position: 50%;
+        
+        &:hover {
+            cursor: pointer;
+        }
+    }
+}

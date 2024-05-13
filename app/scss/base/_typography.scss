@@ -1,0 +1,18 @@
+@use './globals' as *;
+
+h1 {
+    font-size: 2rem;
+    font-family: var(--ff-700);
+    color: var(--clr-light);
+}
+
+a, a:visited, a:active, li, p, label, button, input[type=text], div {
+    font-family: var(--ff-400);
+    color: var(--clr-font);
+    overflow-wrap: anywhere;
+}
+
+p {
+    font-size: .975rem;
+    opacity: .8;
+}
