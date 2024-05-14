@@ -6,7 +6,7 @@ input {
         padding: .5rem;
         outline: none;
         border-width: 0;
-        width: 90%;
+        width: 85%;
         border-top-right-radius: 0;
         border-bottom-right-radius: 0;
         
@@ -17,7 +17,7 @@ input {
 
     &[type=submit] {
         padding: .5rem;
-        width: 10%;
+        width: 15%;
         border-top-left-radius: 0;
         border-bottom-left-radius: 0;
         border: none;
@@ -25,9 +25,20 @@ input {
         background-image: url(../assets/images/icon-arrow.svg);
         background-repeat: no-repeat;
         background-position: 50%;
+        transition: background-color ease-in-out 500ms;
         
         &:hover {
             cursor: pointer;
+            background-color: hsl(235, 19%, 35%);
+        }
+    }
+}
+
+.attribution {
+    a {
+        &:hover {
+            cursor: pointer;
+            color: #000;
         }
     }
 }

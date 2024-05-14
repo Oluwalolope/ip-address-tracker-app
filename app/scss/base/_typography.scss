@@ -1,7 +1,7 @@
 @use './globals' as *;
 
 h1 {
-    font-size: 2rem;
+    font-size: var(--fs-h1);
     font-family: var(--ff-700);
     color: var(--clr-light);
 }
@@ -12,7 +12,59 @@ a, a:visited, a:active, li, p, label, button, input[type=text], div {
     overflow-wrap: anywhere;
 }
 
-p {
-    font-size: .975rem;
-    opacity: .8;
+input[type=text] {
+    font-size: var(--fs-p);        
+    
+    &::placeholder {
+        font-size: var(--fs-p);        
+    }
+}
+
+main {
+    
+    div {
+        text-align: center;
+
+        h3 {
+            font-size: var(--fs-h3);
+            text-align: center;
+            text-transform: uppercase;
+        }
+        p {
+            display: inline-block;
+            color: #000;
+            font-weight: bold;
+            font-size: var(--fs-p);
+            
+            span {
+                text-transform: uppercase;
+            }
+        }
+    }
+}
+
+@media (min-width: 600px) {
+    main {
+        
+        div {
+            h3 {
+                font-size: .65rem;
+                text-align: left;
+                text-transform: uppercase;
+            }
+            p {
+                display: block;
+                color: #000;
+                font-weight: bold;
+    
+                span {
+                    text-transform: uppercase;
+                }
+            }
+        }
+    }
+}
+
+.attribution > * {
+    font-size: var(--fs-p);
 }

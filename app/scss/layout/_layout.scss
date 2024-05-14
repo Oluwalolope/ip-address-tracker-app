@@ -38,10 +38,35 @@ header {
         padding-top: 1rem;
     }
 }
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem 0;
+    width: min(100% - 2rem, 850px);
+    background-color: #fff;
+    border-radius: var(--border-radius);
 
+    div {
+        
+        h3 {
+            padding-bottom: .5rem;
+        }
+    }
+}
 
-@media (min-width: 500px) {
-    
+@media (min-width: 600px) {
+    main {
+        flex-direction: row;
+        justify-content: space-evenly;
+
+        div:not(:first-child) {
+            padding-inline: 1rem;
+            border-left: 1px solid rgba(0, 0, 0, 0.2);
+        }
+    }
 }
 
 
