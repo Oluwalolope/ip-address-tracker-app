@@ -58,6 +58,9 @@ main {
 }
 
 @media (min-width: 600px) {
+    body {
+        background-image: url(../assets/images/pattern-bg-desktop.png);
+    }
     main {
         flex-direction: row;
         justify-content: space-evenly;
