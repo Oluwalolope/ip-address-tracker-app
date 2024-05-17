@@ -192,3 +192,9 @@ input[type=submit]:hover {
   cursor: pointer;
   color: #000;
 }
+
+#map {
+  height: 400px;
+  width: min(100% - 1rem, 1200px);
+  margin-inline: auto;
+}
