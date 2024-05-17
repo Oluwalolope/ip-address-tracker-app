@@ -93,6 +93,7 @@ body {
   justify-content: center;
   align-items: center;
   gap: 1rem;
+  position: relative;
 }
 
 .container {
@@ -154,6 +155,8 @@ main div h3 {
   margin-top: 1rem;
   text-align: center;
   line-height: 1.1rem;
+  position: absolute;
+  bottom: 0;
 }
 
 input {
@@ -194,7 +197,7 @@ input[type=submit]:hover {
 }
 
 #map {
-  height: 400px;
-  width: min(100% - 1rem, 1200px);
+  height: 65vh;
+  width: 100%;
   margin-inline: auto;
 }
