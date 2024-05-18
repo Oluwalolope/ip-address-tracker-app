@@ -2,12 +2,12 @@
 
 h1 {
     font-size: var(--fs-h1);
-    font-family: var(--ff-700);
+    font-family: var(--ff);
     color: var(--clr-light);
 }
 
 a, a:visited, a:active, li, p, label, button, input[type=text], div {
-    font-family: var(--ff-400);
+    font-family: var(--ff);
     color: var(--clr-font);
     overflow-wrap: anywhere;
 }
