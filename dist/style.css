@@ -94,13 +94,14 @@ body {
   width: 100%;
   height: 35vh;
   background-image: url(../assets/images/pattern-bg-mobile.png);
-  background-size: 100%;
+  background-size: cover;
   background-repeat: no-repeat;
 }
 
 .wrapper--2 {
   position: relative;
-  width: 100%;
+  width: min(100% - 2rem, 850px);
+  margin-inline: auto;
 }
 
 .wrapper--3 {
