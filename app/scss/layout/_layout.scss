@@ -16,6 +16,7 @@ body {
 }
 .wrapper--2 {
     position: relative;
+    height: 0;
     width: min(100% - 2rem, 850px);
     margin-inline: auto;
 
@@ -44,9 +45,9 @@ header {
     }
 }
 main {
-    // position: absolute;
-    // inset: -25px 0 0 0;
-    // z-index: 3;
+    position: absolute;
+    inset: -25px 0 0 0;
+    z-index: 3;
     display: flex;
     flex-direction: column;
     justify-content: center;
