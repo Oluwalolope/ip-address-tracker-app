@@ -13,4 +13,4 @@ const myIcon = L.icon({
   popupAnchor: [-3, -76],
 });
 
-const marker = L.marker([51.5, -0.09], { icon: myIcon }).addTo(map);
+const marker = L.marker([51.5, -0.09], { icon: myIcon }).addTo(map).bindPopup('Current location').openPopup();
