@@ -54,7 +54,7 @@ const getIpAddressInfo = async (input) => {
     : (outputIsp.textContent = 'N/A');
 
   outputLocation.textContent = `${data.location.city}, ${data.location.country} ${data.location.postalCode}`;
-  outputTimezone.textContent = `GMT ${data.location.timezone}`;
+  outputTimezone.textContent = `UTC ${data.location.timezone}`;
 
   //render map
   map.setView([data.location.lat, data.location.lng], 14);
