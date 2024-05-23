@@ -1,4 +1,3 @@
-````markdown
 # IP Address Tracker
 
 This is a simple web application developed using HTML, SCSS, and Vanilla JavaScript to track IP addresses. The application utilizes the Geolocation API provided by IPify, the Leaflet JavaScript library for mapping, and OpenStreetMap for the map tiles. The purpose of the app is to display the current location of the user's IP address upon initial page load, as well as to retrieve and display location information for manually entered IP addresses or domains.
@@ -35,4 +34,3 @@ Oluwalolope Adeleye
 ## License
 
 This project is licensed under the [MIT License](LICENSE). Feel free to use and modify the code as needed.
-````
