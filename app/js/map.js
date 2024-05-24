@@ -1,6 +1,6 @@
 //map and tiles
 const map = L.map('map').setView([51.505, -0.09], 13);
-L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
     maxZoom: 19,
     attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
 }).addTo(map);
@@ -13,4 +13,4 @@ const myIcon = L.icon({
   popupAnchor: [-3, -76],
 });
 
-const marker = L.marker([51.5, -0.09], { icon: myIcon }).addTo(map).bindPopup('Current location').openPopup();
+const marker = L.marker([51.5, -0.09], { icon: myIcon }).addTo(map).bindPopup('This IP is located here').openPopup();
