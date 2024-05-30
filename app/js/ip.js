@@ -8,7 +8,7 @@ const outputTimezone = document.querySelector('.timezone p');
 const outputIsp = document.querySelector('.isp p');
 
 //Api Key
-const apiKey = 'at_d6YdRmS1XEgSSJqHnZJHcIXevbLJS';
+const apiKey = 'at_d7nKXzzv7rJh3bkO8LavipD2zus8a';
 
 //Regex
 const domainRegex = /^(https?:\/\/)?([\da-z.-]+)\.([a-z.]{2,6})([/\w.-]*)*\/?$/;
